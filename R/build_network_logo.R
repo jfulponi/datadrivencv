@@ -59,7 +59,8 @@ build_network_logo <- function(position_data){
     "<script id = \"data_for_network\" type = \"application/json\">",
     "{network_data}",
     "</script>",
-    "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js\"></script>",
+    "<script src=\"https://d3js.org/d3.v5.min.js\"></script>",
+    "<script src=\"https://d3js.org/d3-geo-projection.v2.min.js\"></script>",
     "<svg style = \"width: 100%; height:320px; margin-top: -125px;\" id = \"cv_network_viz\"></svg>",
     "<script>",
     "{viz_script}",
@@ -67,3 +68,4 @@ build_network_logo <- function(position_data){
   )
 
 }
+
